@@ -1,8 +1,6 @@
 const axios = require('axios')
 
 const url = 'https://api.github.com/repos/goveanick/githubActionSlack/dispatches'
-// const githubPAT = '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'
-const githubPAT = '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'
 
 const postData = {
     event_type: 'publish_blog'

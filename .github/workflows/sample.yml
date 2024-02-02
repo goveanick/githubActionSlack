@@ -7,8 +7,7 @@ name: Node.js CI
 
 on:
   repository_dispatch:
-    types: [publish_blog]
-
+  
 jobs:
   build:
 
